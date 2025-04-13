@@ -11,7 +11,7 @@ const Header = () => {
                         Every dish is crafted with love and the freshest ingredients.
                         Come hungry, leave happy — your table is waiting."
                     </p>
-                     <button> View Menu</button>
+                     <a href='#exploremenu'> View Menu</a>
                 </div>
             </div>
     )

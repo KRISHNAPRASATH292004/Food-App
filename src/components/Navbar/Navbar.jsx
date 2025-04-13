@@ -8,7 +8,7 @@ const Navbar = ({setshowLogin}) => {
   const [menu, Setmenu] = useState("");
   const {gettotalamount}=useContext(StoreContext);
   return (
-    <div className='navbar'>
+    <div className='navbar' id='navbar'>
       <Link to='/'><img src={assets.logo} alt="" className="logo" /></Link>
       <ul className="navbarmenu">
         <Link to='/'  onClick={() => Setmenu("home")} className={menu === "home" ? "active" : ""}>home</Link>
